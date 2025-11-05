@@ -3,12 +3,14 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App";
 
+
 import { storyblokInit, apiPlugin } from "@storyblok/react";
 
 import Page from "./components/Page";
 import Teaser from "./components/Teaser";
 import Grid from "./components/Grid";
 import Feature from "./components/Feature";
+import Article from "./components/Article";
 
 storyblokInit({
   accessToken: "9ob8aQHQp2nQQ2ixZLPcpgtt",
@@ -18,6 +20,7 @@ storyblokInit({
     teaser: Teaser,
     grid: Grid,
     feature: Feature,
+    article: Article
   },
   apiOptions: {
     // for spaces located in the US or China:
