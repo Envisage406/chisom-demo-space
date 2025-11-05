@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "storyblok-react-boilerplate",
   "version": "0.1.0",
@@ -34,3 +35,24 @@
     ]
   }
 }
+=======
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "form-data": "^4.0.4",
+    "node-fetch": "^3.3.2"
+  }
+}
+>>>>>>> 190030c4748b6f6c175f6e29fb3e7ea91ccd6371
