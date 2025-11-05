@@ -1,0 +1,2 @@
+export const MANAGEMENT_TOKEN = 'lvJ1SUJ7dqnexqoKnMSvEAtt-108817971824252-3yqYVXvdFm3PocYCuBPY';
+export const SPACE_ID = '288276302002589';
